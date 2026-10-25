@@ -1,8 +1,23 @@
 # Pocket Task Tracker
 
-A dependency-free Python command-line task tracker. Add tasks, list them, and mark them complete. Tasks persist between runs in a local JSON file.
+A calm task board for your browser, plus a dependency-free Python command-line companion.
 
-## Quick start
+## Browser app
+
+Open `index.html` in a modern browser. No installation, account, API keys, tracking scripts, or external services are needed.
+
+- Organize tasks into To do, In progress, and Completed.
+- Add notes, priorities, and due dates; search or filter the board.
+- View task counts and completion progress.
+- Switch between light and dark themes.
+- Export a JSON backup and import it later. Import replaces the board after confirmation.
+- Use the responsive layout on desktop or mobile.
+
+Three clearly labeled sample tasks appear on first use. Edit or delete them to make the board your own. Browser tasks are stored locally in that browser and are separate from CLI task data. Clearing browser data can remove them, so export backups. Browser storage behavior for files opened directly can vary; if saving is unavailable, serve the folder with `python3 -m http.server 8000` and open `http://localhost:8000`.
+
+The app does not connect to GitHub, handle credentials, process payments, or promise profile achievements or income.
+
+## CLI quick start
 
 Requires Python 3.10 or newer. No packages or account registration needed.
 
